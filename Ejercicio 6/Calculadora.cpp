@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
     int resultadoSuma = 0;
     int resultadoResta = 0;
     int resultadoMultiplicacion = 0;
-    float resultadoDivision;
+    float resultadoDivision = 0;
 
     cout << endl;
 
