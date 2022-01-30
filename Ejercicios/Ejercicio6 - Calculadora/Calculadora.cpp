@@ -4,8 +4,7 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    //Datos
-
+    //Datos de entrada
     int a = 0;
     int b = 0;
     int resultadoSuma = 0;
@@ -21,16 +20,15 @@ int main(int argc, char const *argv[])
     cout << "Digite el valor de b: ";
     cin >> b;
 
-    //Calculos
+    //proceso
     resultadoSuma = a + b;
     resultadoResta = a - b;
     resultadoMultiplicacion = a * b;
     resultadoDivision = a / b;
 
-    //Salida
-
     cout << endl;
 
+    //Salida
     cout << "La suma de los dos numeros es: " << resultadoSuma << endl;
     cout << "La resta de los dos numeros es: " << resultadoResta << endl;
     cout << "La multiplicacion de los dos numeros es: " << resultadoMultiplicacion << endl;
