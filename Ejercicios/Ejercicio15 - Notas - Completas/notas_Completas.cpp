@@ -71,7 +71,7 @@ int main(int argc, char const *argv[])
             cout << "Obtuviste una F-" << endl;
         }
         if(nota >= 0 && nota <= 4){
-            cout << "Obtuviste una F--" << endl;;
+            cout << "Obtuviste una F--" << endl;
         }
 
     }
