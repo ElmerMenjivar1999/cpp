@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
     cin >> nota;
 
     if (nota > 100 || nota < 0){
-        cout << "Ingrese una nota entre 0 y 100";
+        cout << "Ingrese una nota entre 0 y 100" << endl;
     }
     else{
         
