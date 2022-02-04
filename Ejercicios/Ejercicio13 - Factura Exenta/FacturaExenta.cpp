@@ -21,12 +21,12 @@ int main(int argc, char const *argv[])
     cout << "Ingrese el descuento (0,10,15,20): ";
     cin >> descuento;
 
-    cout << "Factura exenta? s/n: ";
+    cout << "Factura exenta? Escriba s/n: ";
     cin >> estaExenta;
 
     //proceso
     calculoDescuento = (subtotal * descuento) / 100;
-    
+
      if(estaExenta == 's' || estaExenta == 'S'){
         calculoImpuesto = 0;
     }
