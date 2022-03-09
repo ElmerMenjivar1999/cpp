@@ -28,8 +28,7 @@ void productos(int opcion)
 
                      case 2:
                         agregarProducto("1 Expresso - L 30.00",1,30);
-                        break;    
-
+                        break;
 
                     default:
                     {
