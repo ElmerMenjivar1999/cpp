@@ -1,8 +1,12 @@
 #include<iostream>
+#include "menu.h"
+#include "factura.h"
+#include "productos.h"
+
 
 using namespace std;
 
-extern void agregarProducto(string descripcion,int cantidad,double precio);
+
 
 void productos(int opcion)
 {

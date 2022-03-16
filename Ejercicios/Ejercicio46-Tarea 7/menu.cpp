@@ -1,9 +1,11 @@
 #include<iostream>
+#include "menu.h"
+#include "factura.h"
+#include "productos.h"
 
 using namespace std;
 
-extern void productos (int opcion);
-extern void imprimirFactura();
+
 
 void menu(){
     int opcion = 0;
