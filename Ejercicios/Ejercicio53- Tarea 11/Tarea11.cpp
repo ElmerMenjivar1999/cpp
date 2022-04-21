@@ -15,9 +15,11 @@ int main(int argc, char const *argv[])
     cout << endl;
     cout << "Mostrando los Elementos del arreglo bidimensional" << endl;
     cout << endl;
+    
     for(int i = 0; i < 5; i++){
         
         for(int j = 0; j < 5; j++){
+
             arregloBidimensional[i][j] = rand() % 100 + 1;
             sumaTotal += arregloBidimensional[i][j];
             cout << "  " << arregloBidimensional[i][j];
