@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     cout << endl;
     cout << "Mostrando los Elementos del arreglo bidimensional" << endl;
     cout << endl;
-    
+
     for(int i = 0; i < 5; i++){
         
         for(int j = 0; j < 5; j++){
@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
         cout << "\n";
     }
     cout << endl;
-    cout << "La suma total del los elmenetos del arreglo bidimensional es: " << sumaTotal << endl;
+    cout << "La suma total del los elementos del arreglo bidimensional es: " << sumaTotal << endl;
     cout << endl;
 
     return 0;
